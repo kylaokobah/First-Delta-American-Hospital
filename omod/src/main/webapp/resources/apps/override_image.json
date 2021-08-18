@@ -1,0 +1,23 @@
+[
+    {
+        "id" : "overrideSettings",
+        "extensions" : [
+            {
+                "id" : "override.configureStandardHeader",
+                "extensionPointId" : "org.openmrs.module.appui.header.config",
+                "type" : "config",
+                "extensionParams" : {
+                    "logo-icon-url" : "/Users/kylaokobah/openmrs/fdahplat/omod/src/main/webapp/resources/images/FDAH_LOGO_ICON.ico"
+                }
+            },
+            {
+                "id" : "override.configureStandardHeader_adminPage",
+                "extensionPointId" : "org.openmrs.module.referenceapplication.header.config",
+                "type" : "config",
+                "extensionParams" : {
+                    "logo-icon-url" : "/Users/kylaokobah/openmrs/fdahplat/omod/src/main/webapp/resources/images/FDAH_LOGO_ICON.ico"
+                }
+            }
+        ]
+    }
+]
